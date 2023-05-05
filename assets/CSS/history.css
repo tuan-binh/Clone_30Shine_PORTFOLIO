@@ -1,0 +1,84 @@
+.history {
+  padding: 150px 0;
+}
+
+.history .title {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px;
+}
+
+.history .table {
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.table thead {
+  font-weight: bold;
+}
+
+.modal-history input[type="date"] {
+  background: #fff;
+}
+
+.modal-history button {
+  margin: 5px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.pagination {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.pagination .prev,.pagination .next {
+  background: #1c51ff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.pagination .list-page {
+  gap: 5px;
+  display: flex;
+}
+
+.list-page .page-number {
+  width: 30px;
+  height: 30px;
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.page-number.active {
+  background: #ffcc33 !important;
+  color: rgb(25, 0, 255);
+  font-weight: bold;
+
+}
+
+.page-his.action {
+  display: block !important;
+}
+
+.page-number.disable {
+  display: none !important;
+}
+
+.page-his.disable {
+  display: none !important;
+}

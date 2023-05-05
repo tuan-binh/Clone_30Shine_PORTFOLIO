@@ -1,0 +1,178 @@
+@media screen and (max-width: 1000px) {
+  nav ul {
+    display: none;
+  }
+  nav .menu {
+    display: flex;
+    margin-left: auto;
+  }
+  .order-baber {
+    position: relative;
+    top: 20px;
+    width: 95%;
+    /* margin: 10px; */
+    /* padding: 20px; */
+  }
+
+  .list-service {
+    flex-direction: column;
+  }
+
+  .list-service .item {
+    margin-bottom: 10px;
+  }
+
+  .listenUser .listAdmin {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .listAdmin .item {
+    font-size: 20px;
+    width: 48%;
+    /* text-align: center; */
+  }
+
+  .list-feedback {
+    flex-direction: column;
+  }
+
+  .list-location {
+    flex-direction: column;
+  }
+
+  .list-location .item {
+    margin-bottom: 10px;
+  }
+
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .list-hair {
+    flex-direction: column;
+  }
+
+  .row1,
+  .row2,
+  .row3,
+  .row4,
+  .row5 {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .locations .container {
+    /* width: 100%; */
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .list-location,
+  .img-block {
+    width: 100% !important;
+  }
+
+  .information {
+    padding: 40px 0;
+  }
+
+  .information .container {
+    flex-direction: column;
+  }
+
+  .information input[type="text"],
+  .information input[type="number"] {
+    width: 100%;
+  }
+
+  .tab,
+  .page {
+    width: 100%;
+  }
+
+  .list-favorite {
+    justify-content: space-between;
+  }
+  .list-favorite .item {
+    width: 32%;
+  }
+
+  .list-ser {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .list-ser .img__block {
+    width: 100%;
+  }
+
+  .row__service--two {
+    flex-direction: column;
+  }
+
+  .service__block .row {
+    flex-direction: column;
+  }
+
+  .service__block .row:nth-child(3) {
+    flex-direction: column;
+  }
+
+  .service__block .row .over-flow {
+    width: 100%;
+  }
+
+  .flex-news .item-news {
+    width: 49%;
+  }
+
+  .flex_container {
+    flex-direction: column-reverse;
+  }
+
+  .flex_container .upload_img-item {
+    position: relative;
+    top: 0;
+  }
+
+  .flex_container .upload_img-item,
+  .flex_container .block__list--img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .flex-news {
+    flex-direction: column;
+  }
+
+  .flex-news .item-news {
+    width: 100%;
+  }
+
+  .listenUser .listAdmin {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .listAdmin .item {
+    font-size: 20px;
+    width: 100%;
+    /* text-align: center; */
+  }
+
+  .list-favorite .item {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .list-favorite {
+    flex-direction: column;
+  }
+  .list-favorite .item {
+    width: 100%;
+  }
+}

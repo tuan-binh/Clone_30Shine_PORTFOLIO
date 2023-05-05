@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Shine Thông Tin Cá Nhân</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <!-- embed swiper -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <!-- embed icon -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png"
+      type="image/x-icon">
+    <!-- link bootstrap -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- link css -->
+    <link rel="stylesheet" href="../CSS/main.css">
+    <!-- link css information -->
+    <link rel="stylesheet" href="../CSS/info.css">
+    <!-- link responsive -->
+    <link rel="stylesheet" href="../CSS/reponsive.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav>
+          <a href="../pages/passLogin.html">
+            <img src="../img/logo.jpg" alt="logo">
+          </a>
+          <ul>
+            <li><a href="#services">TRẢI NGHIỆM DỊNH VỤ</a></li>
+            <li><a href="#angels">30SHINE'S ANGELS</a></li>
+            <li><a href="./newFeed.html">HÀNH TRÌNH TỎA SÁNG</a></li>
+            <li><a href="../pages/typeHair.html">KHÁM PHÁ KIỂU TÓC</a></li>
+            <li><a href="../pages/locations.html">30SHINE GẦN NHẤT</a></li>
+            <li>
+              <div class="dropdown">
+                <a href="#!" class="login" data-bs-toggle="dropdown"
+                  aria-expanded="false"><i class="fa-solid fa-crown"></i>
+                  ADMIN</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item"
+                      href="../pages/information.html">Thông tin cá
+                      nhân</a></li>
+                  <li><a class="dropdown-item"
+                      href="../pages/listFavourite.html">Danh
+                      Sách Yêu Thích</a></li>
+                  <li><a class="dropdown-item"
+                      href="../pages/histoty.html">Lịch
+                      Sử Đặt Lịch</a></li>
+                  <li><a id="out" class="dropdown-item" href="../../index.html">Đăng
+                      Xuất</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+          <div class="menu" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- page information -->
+      <div class="information">
+        <h2 class="title">Thông Tin Cá Nhân</h2>
+        <div class="container">
+          <ul class="tab">
+            <li><a class="tab__item active" href="#!">Tất Cả Thông Tin</a></li>
+            <li><a class="tab__item" href="#!">Đổi Tên</a></li>
+            <li><a class="tab__item" href="#!">Đổi Mật Khẩu</a></li>
+          </ul>
+          <div class="page">
+            <div class="page__item action">
+              <h3 class="sub-title">Tất Cả Thông Tin</h3>
+              <label for="">Họ Và Tên: <span style="color:red">*</span></label>
+              <input class="oldName" type="text" disabled>
+              <label for="">Số Điện Thoại: <span style="color:red">*</span></label>
+              <input class="oldPhone" type="text" disabled>
+              <label for="">Thông tin cá nhân:</label>
+              <p class="desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium autem iste optio repellat alias nulla, est pariatur.
+                Quam laudantium, accusantium officiis, repellendus nostrum illum
+                magnam enim odit praesentium doloremque vitae.</p>
+            </div>
+            <div class="page__item">
+              <h3 class="sub-title">Thay Đổi Tên</h3>
+              <div class="center">
+                <label for="">Họ Và Tên Cũ:</label>
+                <input class="oldName" type="text" disabled>
+                <form action="" class="newName">
+                  <label for="name">Họ Và Tên Mới:</label>
+                  <input type="text" name="name">
+                  <button class="btn btn-primary">Xác Nhận</button>
+                </form>
+              </div>
+            </div>
+            <div class="page__item">
+              <h3 class="sub-title">Thay Đổi Mật Khẩu</h3>
+              <div class="center">
+                <label for="">Mật Khẩu Cũ:</label>
+                <input class="oldPS" type="text" disabled>
+                <form action="" class="newPass">
+                  <label for="Pass">Mật Khẩu Mới:</label>
+                  <input type="text" name="Pass">
+                  <button class="btn btn-primary">Xác Nhận</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <h3>CÔNG TY CỔ PHẦN TMDV 30SHINE</h3>
+          <p>
+            82 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, HN <br>
+            Số giấy chứng nhận kinh doanh: 010.7467.693 <br>
+            Ngày cấp: 08/06/2016 <br>
+            Nơi cấp: Sở kế hoạch đầu tư TP Hà Nội <br>
+            <strong>Chính sách bảo mật thông tin</strong> <br>
+            <strong>Liên hệ quảng cáo 30Shine</strong>
+          </p>
+          <img src="../img/congthuongicon.png" alt="" width="180px">
+          <h3>TRUNG TÂM ĐÀO TẠO NGHỀ TÓC 30SHINE</h3>
+          <p>
+            - Hà Nội: Số 10 Trần Phú, P. Mộ Lao, Q.Hà Đông <br>
+            - HCM: Số 323 Xô Viết Nghệ Tĩnh, P. 24, Q.Bình Thạnh <br>
+            Liên hệ học nghề tóc: 0967.86.3030
+          </p>
+        </div>
+        <div>
+          <h3>GIỜ PHỤC VỤ</h3>
+          <p>
+            Thứ 2 đến thứ 6: 8h00 - 21h00 <br>
+            Thứ 7, chủ nhật: 7h30 - 21h00
+          </p>
+          <button type="button" class="btn btn-outline-warning">
+            <i class="fa-solid fa-phone"></i> HOTLINE: 1900.27.27.03
+            (1000Đ/PHÚT)
+          </button>
+          <div class="social">
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p style="text-align: center;">
+        Copyright 2015 30Shine, Inc. All Rights Reserved
+      </p>
+    </footer>
+    <!-- offcanvas right -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Navigation 30 Shine</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul>
+          <li><a href="#services">TRẢI NGHIỆM DỊNH VỤ</a></li>
+          <li><a href="#angels">30SHINE'S ANGELS</a></li>
+          <li><a href="./newFeed.html">HÀNH TRÌNH TỎA SÁNG</a></li>
+          <li><a href="../pages/typeHair.html">KHÁM PHÁ KIỂU TÓC</a></li>
+          <li><a href="../pages/locations.html">30SHINE GẦN NHẤT</a></li>
+          <li><a href="../pages/information.html">Thông Tin Cá Nhân</a></li>
+          <li><a href="../pages/listFavourite.html">Danh Sách Yêu Thích</a></li>
+          <li><a href="../pages/histoty.html">Lịch Sử Đặt Lịch</a></li>
+          <li>
+            <div class="action">
+              <a href="#!" class="login"><i class="fa-solid fa-crown"></i>
+                ADMIN</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/main.js"></script>
+    <!-- <script>
+      let names = JSON.parse(localStorage.getItem("listUser"));
+      console.log(names)
+      let nameUser = document.querySelectorAll(".login");
+      nameUser.forEach(function (e) {
+        for(let i=0;i<names.length;i++) {
+          if(names[i].status === true) {
+            e.innerHTML = `<i class="fa-solid fa-crown"></i> ${
+              names[i].name.charAt(0).toUpperCase() + names[i].name.slice(1).toLowerCase()
+            }`;
+          }
+        }
+      });
+      let btnOutTK = document.getElementById("out");
+      btnOutTK.onclick = function () {
+        for(let i=0;i<names.length;i++) {
+          names[i].status = false;
+        }
+        localStorage.setItem('listUser',JSON.stringify(names));
+      };
+    </script> -->
+    <!-- <script src="../JS/history.js"></script> -->
+    <script src="../JS/info.js"></script>
+    <!-- <script src="/asset/JS/hairStyle.js"></script> -->
+  </body>
+</html>

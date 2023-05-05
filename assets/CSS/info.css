@@ -1,0 +1,96 @@
+.information {
+  padding: 100px;
+}
+
+.information .title {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+}
+
+.information .container {
+  display: flex;
+  gap: 15px;
+}
+
+.tab {
+  padding: 0;
+  width: 40%;
+}
+
+.page {
+  width: 60%;
+}
+
+.tab .tab__item {
+  margin: 5px;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  padding: 8px;
+  background: black;
+}
+
+.tab .tab__item {
+  text-align: center;
+  border-radius: 5px;
+}
+
+.active {
+  background: #ffcf49 !important;
+  color: #000 !important;
+}
+
+.page__item {
+  padding: 40px 20px;
+  /* height: 400px; */
+  display: none;
+  background: #ededed;
+  border-radius: 10px;
+}
+
+.page__item.action {
+  display: block !important;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  width: 50%;
+  outline: none;
+}
+.page__item .sub-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.page__item .desc {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.page__item .center input[type="text"],
+.page__item .center input[type="number"] {
+  margin: 5px;
+  padding: 5px;
+  display: block;
+  width: 100%;
+}
+
+.page__item .center {
+  /* text-align: center; */
+  margin: 0 auto;
+  width: 400px;
+  border: 2px solid #9a9a9a;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.center .btn {
+  margin-top: 15px !important;
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}

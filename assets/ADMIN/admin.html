@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN 30 SHINE</title>
+    <!-- link reset css -->
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <!-- link embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <!-- link embed bootstrap -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <!-- link embed font awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- link css admin -->
+    <link rel="stylesheet" href="./passLogin/admin.css">
+    <!-- link responsive -->
+    <link rel="stylesheet" href="../CSS/reponsive.css">
+  </head>
+</head>
+<body>
+  <main>
+    <nav class="">
+      <div class="admin__ac">
+        <div class="avatar-ad">
+          <img src="../img/avatarAD.jpg" alt="">
+          <p class="name-ad">Admin@gmail.com</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <p class="item active">Trang chủ</p>
+        <p class="item">Thông tin lịch đặt</p>
+        <p class="item">Thông tin nguồn ảnh</p>
+        <p class="item">Quản lý dữ liệu khách hàng</p>
+        <p class="out"><a href="./loginAD.html">Đăng xuất</a></p>
+      </div>
+    </nav>
+    <div class="pages__block">
+      <div class="subnav">
+        <ul>
+          <li><a href="#!" class="menu"><i class="fa-solid fa-bars"></i></a></li>
+          <li><a href="#!">Home</a></li>
+          <li><a href="#!">Contact</a></li>
+          <li>
+            <i class="fa-regular fa-bell"></i>
+            <span>1</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-maximize"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="page__item action">
+        <h2 class="sub-title">Thêm bản tin 30 shine</h2>
+        <div class="row-data">
+          <div class="item-data">
+            <p><strong>150</strong><br>New Order</p>
+            <i class="fa-solid fa-bag-shopping"></i>
+          </div>
+          <div class="item-data">
+            <p><strong>53%</strong><br>Bounce Rate</p>
+            <i class="fa-solid fa-database"></i>
+          </div>
+          <div class="item-data">
+            <p><strong>44</strong><br>User Registrations</p>
+            <i class="fa-solid fa-user-plus"></i>
+          </div>
+          <div class="item-data">
+            <p><strong>65</strong><br>Unique Visitors</p>
+            <i class="fa-solid fa-chart-pie"></i>
+          </div>
+        </div>
+        <!-- row data new feed -->
+        <div class="block__news">
+          <div class="newFeed"></div>
+          <div class="addNews">
+            <form action="" class="addNew">
+              <div class="block__img--news">
+                <img src="../img/admin/30shine-nam-sinh-kien-truc-lot-xac.jpg"
+                  alt="">
+              </div>
+              <!-- add source image -->
+              <div class="upload-img">
+                <label for="file" id="upload" class="btn btn-primary">Upload
+                  Image</label>
+                <input accept="image/*" type="file" id="file" required>
+              </div>
+              <!-- add title -->
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput"
+                  placeholder="name@example.com" name="title" required>
+                <label for="floatingInput">Title News</label>
+              </div>
+              <!-- add link youtube -->
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput"
+                  placeholder="name@example.com" name="youtube" required>
+                <label for="floatingInput">Link Youtube</label>
+              </div>
+              <!-- add description -->
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment
+                  here"
+                  id="floatingTextarea2" style="height: 100px" name="desc"
+                  required></textarea>
+                <label for="floatingTextarea2">Description News</label>
+              </div>
+              <!-- button -->
+              <button class="btn btn-primary">Create News</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- page order admin -->
+      <div class="page__item">
+        <div class="flex-center">
+          <div class="itemCus">
+            <h2 class="sub-title">Thông tin đặt lịch của khách</h2>
+            <input type="text" name="" id="" class="searchCus"
+              placeholder="nhập số điện thoại">
+          </div>
+        </div>
+        <ul class="listCus">
+          <!-- <div class="customer">
+            <h4>Name: Bình - Tel: 0968837785</h4>
+            <table class="table dataCustomer">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">ĐỊA ĐIỂM</th>
+                  <th scope="col">DỊNH VỤ</th>
+                  <th scope="col">THỜI GIAN</th>
+                  <th scope="col">ACTION</th>
+                  <th scope="col">STATUS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Hà Nội</td>
+                  <td>Gội Đầu</td>
+                  <td>Ngày: 21/4/2023 Giờ: 16h - 18h</td>
+                  <td>
+                    <button type="button" class="btn btn-success">Sửa</button>
+                    <button type="button" class="btn btn-danger">Hủy Kèo</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div> -->
+        </ul>
+      </div>
+      <div class="page__item">
+        <h2 class="sub-title">Thông tin nguồn ảnh</h2>
+        <div class="flex_container">
+          <div class="block__list--img">
+            <div class="col column1"></div>
+            <div class="col column2"></div>
+            <div class="col column3"></div>
+            <div class="col column4"></div>
+            <div class="col column5"></div>
+          </div>
+          <div class="upload_img-item">
+            <div class="block__img--show">
+              <img src="/assets/img/hairStyle/ronaldo.jpg" alt="">
+            </div>
+            <form action="" class="upload-hair">
+              <div class="row-flex">
+                <label for="imgHair" class="add">Upload</label>
+                <input type="file" name="" id="imgHair">
+                <input type="text" placeholder="Nhập cột bạn muốn thêm"
+                  name="column" class="input" required>
+              </div>
+              <button class="btn btn-success">Thêm Ảnh</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="page__item">
+        <h2 class="sub-title">Thông tin những khách hàng</h2>
+        <div class="managerUser">
+          <table class="table dataCustomer">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">NAME</th>
+                <th scope="col">SỐ ĐIỆN THOẠI</th>
+                <th scope="col">MẬT KHẨU</th>
+                <th scope="col">ACTION</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- <tr>
+                <th scope="row">1</th>
+                <td>Phạm Tuấn Bình</td>
+                <td>0968837785</td>
+                <td>1892001</td>
+                <td>
+                  <button type="button" class="btn btn-danger">Xóa</button>
+                </td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./passLogin/admin.js"></script>
+  </body>
+</html>
